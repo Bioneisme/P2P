@@ -22,5 +22,12 @@ contract StreamToken is ERC20 {
         string twitterID;
     }
 
+    struct Subscription {
+        ContentCreator contentCreator;
+        ContentConsumer contentConsumer;
+        uint paymentAmount;
+        uint streamTime;
+    }
+
 
 }
